@@ -11,7 +11,7 @@ function Tax() {
       <div className="d-flex justify-content-between align-items-center mb-5">
         <div className="d-flex flex-row align-items-center">
           <h4 className="text-uppercase mt-1 text-warning fw-bold fs-1">Tax</h4>
-          <span className="ms-2 me-3 text-light">App</span>
+          <span className="ms-2 me-3 text-light fs-1">App</span>
         </div>
          <a href="#!" class="btn btn-danger btn-sm text-warring" role="button">Log out</a>
       </div>
@@ -19,7 +19,7 @@ function Tax() {
       <div className="row">
 
         <div className="col-md-5 mb-4">
-          <h5 className="mb-4 fs-4 fw-bold text-light">Tax Calculation</h5>
+          <h5 className="mb-4 mt-3 fs-4 fw-bold text-light">Tax Calculation</h5>
           <div>
             <div className="d-flex justify-content-between pb-2">
               <h6 className="mr-2 mb-0 text-info">Salary Input</h6>
@@ -37,7 +37,7 @@ function Tax() {
 
             <div className="d-flex justify-content-between align-items-center">
               <div className="d-flex flex-row mt-1">
-                <h6 className='mb-4 fs-4 fw-bold text-light'>EPF/ ETF deductions</h6>
+                <h6 className='mt-4 mb-4 fs-4 fw-bold text-light'>EPF/ ETF deductions</h6>
               </div>
             </div>
             <p className='text-info'>
@@ -58,7 +58,7 @@ function Tax() {
 
           
 
-          <span className="fw-bold">Tax rates</span>
+          <span className="fw-bold text-danger">Tax rates</span>
             <div className="d-flex justify-content-between mt-2">
               <span>Upto 100,000</span> <span>0</span>
             </div>

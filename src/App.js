@@ -8,7 +8,7 @@ import Loading from "./components/Loading";
 function App() {
   return (
     <div className="App">
-      <Tax/>
+      <LogIn/>
     </div>
   );
 }
