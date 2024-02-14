@@ -44,8 +44,8 @@ function LogIn() {
               </div>
 
               <a href="Tax.js" class="btn btn-primary w-100 mb-4">Log In</a>
-              <p className='text-center'>Already have an account? <br/>
-              <a href='Registration.js'>Log in</a>
+              <p className='text-center'>Don't have an account? <br/>
+              <a href='Registration.js'>Sign Up</a>
               </p>
           </div>
 

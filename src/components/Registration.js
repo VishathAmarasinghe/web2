@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './Background.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -60,7 +59,7 @@ function Registration() {
               </div>
 
               <a href="Tax.js" class="btn btn-primary w-100 mb-4" role="button">Sing Up</a>
-              <p className='text-center'>Already have an account? 
+              <p className='text-center'>Already have an account? <br/>
               <a href='LogIn.js'>Log in</a>
               </p>
           </div>
