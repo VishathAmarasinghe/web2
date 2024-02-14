@@ -28,39 +28,59 @@ function Registration() {
           <div id="radius-shape-1" className="position-absolute rounded-circle shadow-5-strong"></div>
           <div id="radius-shape-2" className="position-absolute shadow-5-strong"></div>
 
-          <div className='my-4 mx-1 bg-glass p-5'>
+          <div className='mx-1 bg-glass px-5 py-4'>
               
-                <h2 className='mb-2'>Get Start Now!</h2>
+                <h2 className='mb-1'>Get Start Now!</h2>
 
-              <div className='row my-auto'>
+              <div className='row my-0'>
                 <div className='col-6'>
-                  <div className='mb-4'>
+                  <div className=''>
                     <label htmlFor='form1' className='form-label'>First name</label>
                     <input type='text' className='form-control' id='form1' />
                   </div>
                 </div>
 
                 <div className='col-6'>
-                  <div className='mb-4'>
+                  <div className=''>
                     <label htmlFor='form2' className='form-label'>Last name</label>
                     <input type='text' className='form-control' id='form2' />
                   </div>
                 </div>
               </div>
 
-              <div className='mb-4 my-auto'>
+              <div className='row my-0'>
+                <div className='col-6'>
+                  <div className=''>
+                    <label htmlFor='form5' className='form-label'>Phone Number</label>
+                    <input type='text' className='form-control' id='form5' />
+                  </div>
+                </div>
+
+                <div className='col-6'>
+                  <div className=''>
+                    <label htmlFor='form6' className='form-label'>Age</label>
+                    <input type='text' className='form-control' id='form6' />
+                  </div>
+                </div>
+              </div>
+
+              <div className=''>
                 <label htmlFor='form3' className='form-label'>Email</label>
                 <input type='email' className='form-control' id='form3' />
               </div>
 
-              <div className='mb-4'>
+              <div className=''>
                 <label htmlFor='form4' className='form-label'>Password</label>
                 <input type='password' className='form-control' id='form4' />
               </div>
 
-              <a href="Tax.js" class="btn btn-primary w-100 mb-4" role="button">Sing Up</a>
-              <p className='text-center'>Already have an account? <br/>
-              <a href='LogIn.js'>Log in</a>
+              <div className=''>
+                <label htmlFor='form4' className='form-label'>Re-enter Password</label>
+                <input type='password' className='mb-3 form-control' id='form4' />
+              </div>
+
+              <a href="Tax.js" class="btn btn-primary w-100 mb-2" role="button">Sing Up</a>
+              <p className='text-center'>Already have an account?<a href='LogIn.js'>Log in</a>
               </p>
           </div>
 
