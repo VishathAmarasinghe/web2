@@ -1,9 +1,8 @@
 import React from 'react';
-
 import './Background.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Registration() {
+function LogIn() {
   return (
     <div className='container-fluid p-4 background-radial-gradient overflow-hidden py-5'>
 
@@ -31,23 +30,8 @@ function Registration() {
 
           <div className='my-4 mx-1 bg-glass p-5'>
               
-                <h2 className='mb-2'>Get Start Now!</h2>
-
-              <div className='row my-auto'>
-                <div className='col-6'>
-                  <div className='mb-4'>
-                    <label htmlFor='form1' className='form-label'>First name</label>
-                    <input type='text' className='form-control' id='form1' />
-                  </div>
-                </div>
-
-                <div className='col-6'>
-                  <div className='mb-4'>
-                    <label htmlFor='form2' className='form-label'>Last name</label>
-                    <input type='text' className='form-control' id='form2' />
-                  </div>
-                </div>
-              </div>
+              <h2 className='mb-2'>Log In!</h2>
+              <p className='text'>Enter your credentials to continue</p>
 
               <div className='mb-4 my-auto'>
                 <label htmlFor='form3' className='form-label'>Email</label>
@@ -59,9 +43,9 @@ function Registration() {
                 <input type='password' className='form-control' id='form4' />
               </div>
 
-              <a href="Tax.js" class="btn btn-primary w-100 mb-4" role="button">Sing Up</a>
-              <p className='text-center'>Already have an account? 
-              <a href='LogIn.js'>Log in</a>
+              <a href="Tax.js" class="btn btn-primary w-100 mb-4">Log In</a>
+              <p className='text-center'>Already have an account? <br/>
+              <a href='Registration.js'>Log in</a>
               </p>
           </div>
 
@@ -73,4 +57,4 @@ function Registration() {
   );
 }
 
-export default Registration;
+export default LogIn;
