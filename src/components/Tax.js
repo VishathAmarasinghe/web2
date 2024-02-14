@@ -4,15 +4,16 @@ import './Background.css';
 
 function Tax() {
   return (
+    
     <div className='container-fluid p-2 background-radial-gradient overflow-hidden py-3'>
-
+    
     <div className="container py-2">
       <div className="d-flex justify-content-between align-items-center mb-5">
         <div className="d-flex flex-row align-items-center">
           <h4 className="text-uppercase mt-1 text-warning fw-bold fs-1">Tax</h4>
           <span className="ms-2 me-3 text-light">App</span>
         </div>
-         <a href="#!" class="btn btn-danger btn-sm" role="button">Log out</a>
+         <a href="#!" class="btn btn-danger btn-sm text-warring" role="button">Log out</a>
       </div>
 
       <div className="row">
@@ -22,19 +23,17 @@ function Tax() {
           <div>
             <div className="d-flex justify-content-between pb-2">
               <h6 className="mr-2 mb-0 text-info">Salary Input</h6>
-              <input type="number" className="p-2 form-control ms-5" placeholder="Enter your salary"/>
+              <input type="number" className="p-2 form-control ms-5 text-success" placeholder="Enter your salary"/>
             </div>
 
             <div className="d-flex justify-content-between">
               <h6 className="mr-2 mb-0 text-info">Select Category</h6>
-              <select id="categorySelect" className="p-2 form-control ms-4">
+              <select id="categorySelect" className="p-2 form-control ms-4 text-success">
                <option value="" disabled selected>Select the category</option>
                <option value="member">Member</option>
                <option value="not_member">Not a Member</option>
               </select>
             </div>  
-              
-            <hr/>
 
             <div className="d-flex justify-content-between align-items-center">
               <div className="d-flex flex-row mt-1">
@@ -53,7 +52,7 @@ function Tax() {
 
         <div className="col-md-5 offset-md-1">
           
-          <div id="radius-shape-1" className="position-absolute rounded-circle shadow-5-strong"></div>
+          
         
         <div className='my-2 mx-1 bg-glass p-5'>
 
