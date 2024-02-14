@@ -9,7 +9,7 @@ function Tax() {
           <h4 className="text-uppercase mt-1">Tax</h4>
           <span className="ms-2 me-3">App</span>
         </div>
-        <a href="#!" className="text-decoration-none">Log out</a>
+         <a href="#!" class="btn btn-danger btn-sm" role="button">Log out</a>
       </div>
 
       <div className="row">
@@ -17,10 +17,19 @@ function Tax() {
         <div className="col-md-5 mb-4 mb-md-0">
           <h5 className="mb-3">Tax Calculation</h5>
           <div>
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-between pb-2">
               <h6 className="mr-2 mb-0">Salary Input</h6>
-              <input type="number" className="p-2 form-control" placeholder="Enter your salary"/>
+              <input type="number" className="p-2 form-control ms-5" placeholder="Enter your salary"/>
             </div>
+
+            <div className="d-flex justify-content-between">
+              <h6 className="mr-2 mb-0">Select Category</h6>
+              <select id="categorySelect" className="p-2 form-control ms-4">
+               <option value="" disabled selected>Select the category</option>
+               <option value="member">Member</option>
+               <option value="not_member">Not a Member</option>
+              </select>
+            </div>  
               
             <hr />
 
