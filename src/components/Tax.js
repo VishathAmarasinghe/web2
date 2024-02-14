@@ -18,19 +18,10 @@ function Tax() {
           <h5 className="mb-3">Tax Calculation</h5>
           <div>
             <div className="d-flex justify-content-between">
-              <div className="d-flex flex-row mt-1">
-                <h6>Salary Input</h6>
-              </div>
+              <h6 className="mr-2 mb-0">Salary Input</h6>
+              <input type="number" className="p-2 form-control" placeholder="Enter your salary"/>
             </div>
-            <p>
-              Please enter your monthly gross salary.
-            </p>
-            <div className="p-2 d-flex justify-content-between align-items-center">
-              <input
-                type="number"
-                className="p-2 form-control"/>
-            </div>
-
+              
             <hr />
 
             <div className="d-flex justify-content-between align-items-center">
@@ -39,14 +30,10 @@ function Tax() {
               </div>
             </div>
             <p>
-                The mandatory minimum contribution rate for the members of the Fund at present is 20 per cent of the gross monthly 
-                earnings of their employment. The employers and the employees (members) are required to contribute a minimum rate 
-                of 12 per cent and 8 per cent of the member’s monthly gross earnings, respectively to EPF.
+               In Sri Lanka, EPF mandates a 20% minimum contribution rate from employees' gross monthly earnings. 
+               Employers must contribute a minimum of 12%, and employees 8%, with an additional 3% from employers 
+               based on total earnings. These contributions secure employee welfare and retirement benefits.
             </p>
-            <p>
-              Contributions are due from employers at the rate of 3% of every employee’s monthly total earnings
-            </p>
-            
             <button className="btn btn-success btn-lg d-block w-100 mb-2">Proceed to Calculation</button>
             <button className="btn btn-success btn-lg d-block w-100">Check Past Calculation</button>
           </div>
