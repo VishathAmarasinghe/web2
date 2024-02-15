@@ -22,31 +22,26 @@ function Tax() {
           <h5 className="mb-4 mt-3 fs-4 fw-bold text-light">Tax Calculation</h5>
           <div>
             <div className="d-flex justify-content-between pb-2">
-              <h6 className="mr-2 mb-0 text-info">Salary Input</h6>
-              <input type="number" className="p-2 form-control ms-5 text-success" placeholder="Enter your salary"/>
+              <h6 className="mb-1 text-info">Salary Input</h6>
             </div>
+            <input type="number" className="p-2 form-control text-success mb-2" placeholder="Enter your salary"/>
 
-            <div className="d-flex justify-content-between">
-              <h6 className="mr-2 mb-0 text-info">Select Category</h6>
-              <select id="categorySelect" className="p-2 form-control ms-4 text-success">
+            <div className="d-flex justify-content-between pb-2">
+              <h6 className="mb-1 text-info">Select Category</h6>
+            </div>
+             <select id="categorySelect" className="p-2 form-control mb-2">
                <option value="" disabled selected>Select the category</option>
                <option value="member">Member</option>
                <option value="not_member">Not a Member</option>
-              </select>
-            </div>  
-
-            <div className="d-flex justify-content-between align-items-center">
-              <div className="d-flex flex-row mt-1">
-                <h6 className='mt-4 mb-4 fs-4 fw-bold text-light'>EPF/ ETF deductions</h6>
+              </select> 
+              <div className="d-flex justify-content-between pb-2">
+                <h6 className="mb-1 text-info">Description</h6>
               </div>
-            </div>
-            <p className='text-info'>
-               In Sri Lanka, EPF mandates a 20% minimum contribution rate from employees' gross monthly earnings. 
-               Employers must contribute a minimum of 12%, and employees 8%, with an additional 3% from employers 
-               based on total earnings. These contributions secure employee welfare and retirement benefits.
-            </p>
+              <input type="text" className="p-2 form-control text-success mb-2" placeholder="Enter your description"/>
+            
             <button className="btn btn-primary btn-lg d-block w-100 mb-2 mt-5">Proceed to Calculation</button>
             <button className="btn btn-primary btn-lg d-block w-100">Check Past Calculation</button>
+            
           </div>
         </div>
 
@@ -81,29 +76,21 @@ function Tax() {
               <span>Above 308,333</span> <span>36%</span>
             </div>
             <hr />
+            <span className="fw-bold text-danger">EPF/ETF deductions</span>
             <div className="d-flex justify-content-between mt-2">
               <span className="lh-sm">
-                Tax Deductions
+              Mandatory Contribution Rate
               </span>
-              <span>Rs.00.00</span>
+              <span>20%</span>
             </div>
             <div className="d-flex justify-content-between mt-2">
-              <span className="lh-sm">
-                ETP/ETF Deductions
-              </span>
-              <span>Rs.00.00</span>
+              <span>Employer Contribution </span> <span>12%</span>
             </div>
-
-            <hr/>
-
             <div className="d-flex justify-content-between mt-2">
-              <span>Toatla Deduction from Salary </span> <span>Rs.00.00</span>
+              <span>Employee Contribution</span> <span>8%</span>
             </div>
-            
-            <hr />
-
             <div className="d-flex justify-content-between mt-2">
-              <span>Take-Home Salary </span> <span className="text-success">Rs.00.00</span>
+              <span>Additional Employer Contribution</span> <span>3%</span>
             </div>
 
         </div>
