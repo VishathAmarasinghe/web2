@@ -5,8 +5,9 @@ import './Background.css';
 function Tax() {
   return (
     
-    <div className='container-fluid p-2 background-radial-gradient overflow-hidden py-3'>
+    <div className='container-fluid p-2 background-radial-gradient overflow-hidden py-3 min-vh-100'>
     
+  
     <div className="container py-2">
       <div className="d-flex justify-content-between align-items-center mb-5">
         <div className="d-flex flex-row align-items-center">
@@ -15,6 +16,7 @@ function Tax() {
         </div>
          <a href="#!" class="btn btn-danger btn-sm text-warring" role="button">Log out</a>
       </div>
+    
 
       <div className="row">
 

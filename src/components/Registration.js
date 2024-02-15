@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Registration() {
   return (
-    <div className='container-fluid p-4 background-radial-gradient overflow-hidden py-5'>
+    <div className='container-fluid p-4 background-radial-gradient overflow-hidden py-5 min-vh-100'>
 
       <div className='row d-flex align-items-center justify-content-center py-3'>
 
